@@ -58,6 +58,7 @@
     <Compile Include="Services\AzureService.cs" />
     <Compile Include="Controller\Singleton.cs" />
     <Compile Include="Services\AppServiceIdentity.cs" />
+    <Compile Include="Model\Option.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

@@ -22,7 +22,11 @@
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
-                                    <Label Text="{Binding LastActions}" />
+                                    <StackLayout Orientation="Vertical" Spacing="0" >
+                                    <Label Text=" " FontSize="5" />
+                                    <Label Text="{Binding selectOptionTitle}"  TextColor="#FF4081" FontSize="20" Font="Bold" HorizontalOptions="Start" />
+                                    <Label Text="{Binding selectOptionDescription}" TextColor="#FF4081" FontSize="14" HorizontalOptions="Start" />
+                                   </StackLayout>
                                  </ViewCell>
                             </DataTemplate>
                         </ListView.ItemTemplate>

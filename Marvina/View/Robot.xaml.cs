@@ -4,6 +4,7 @@ using Xamarin.Forms;
 using Marvina.Properties;
 using Marvina.Services;
 using System.Threading.Tasks;
+using Marvina.Model;
 
 namespace Marvina.View
 {
@@ -14,6 +15,7 @@ namespace Marvina.View
         public Robot()
         {
             InitializeComponent();
+            Singleton.GetInstance();
             TitleLastActionStack.BackgroundColor = AppProperties.getLightColor();
 			facebookStack.BackgroundColor = AppProperties.getFaceBookCollor();
             threadCheckLoginAsync();
@@ -31,7 +33,17 @@ namespace Marvina.View
                     {
                         Device.BeginInvokeOnMainThread(() =>
                     {
-                        userName.Text = Singleton.getUserName();
+						    LstAction.BeginRefresh();
+
+						    userName.Text = Singleton.getUserName();
+                            Option op = new Option();
+                            op.selectOptionTitle = "Login com Facebook";
+                            op.selectOptionDescription = Singleton.getUserName();
+                            Singleton.addListOfOption(op);
+                            var listOption = Singleton.getListOfOption();
+                            LstAction.ItemsSource = listOption;
+                            LstAction.EndRefresh();
+
                     });
                         break;
                     }

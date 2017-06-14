@@ -11,7 +11,7 @@
 namespace Marvina.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/muriloerhardt/Projects/Marvina/Marvina/View/Robot.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/muriloerhardt/Projetos/Marvinaa/Marvina/Marvina/View/Robot.xaml")]
     public partial class Robot : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
