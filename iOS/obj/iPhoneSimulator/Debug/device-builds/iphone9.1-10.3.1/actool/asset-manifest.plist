@@ -5,9 +5,7 @@
 	<key>com.apple.actool.compilation-results</key>
 	<dict>
 		<key>output-files</key>
-		<array>
-			<string>/Users/muriloerhardt/Projects/Marvina/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/partial-info.plist</string>
-		</array>
+		<array/>
 	</dict>
 </dict>
 </plist>

@@ -17,7 +17,7 @@ namespace Marvina.Services
     public class AzureService 
     {
 
-        static readonly string AppUrl = "http://honestmarvin.azurewebsites.net/";
+        static readonly string AppUrl = "https://honestmarvin.azurewebsites.net/";
 
         public MobileServiceClient Client { get; set; } = null;
 
