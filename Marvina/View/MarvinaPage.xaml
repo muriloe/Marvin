@@ -1,0 +1,9 @@
+<TabbedPage x:Name = "tabBar"
+            BarBackgroundColor="#1c1c1c" 
+            BarTextColor="White"   
+            xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            xmlns:local="clr-namespace:Marvina"
+            x:Class="Marvina.MarvinaPage">
+    
+</TabbedPage>

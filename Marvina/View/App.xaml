@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Marvina.App">
+	<Application.Resources>
+		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <!-- Essas Tag's são usadas para personalizar a barra de navegação do APP
+           Uma vez configurado aqui, todas as views seguirão esse parametros-->
+            <Style TargetType="NavigationPage">
+
+                <Setter Property="BarTextColor" Value="#FFFFFF" />
+            </Style>
+            <!-- Fim da personalização -->
+        </ResourceDictionary>
+	</Application.Resources>
+</Application>

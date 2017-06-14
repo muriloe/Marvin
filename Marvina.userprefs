@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{8A4EF37E-1220-4133-81BA-0099A7A06AC8}|Default">
+  <MonoDevelop.Ide.ItemProperties.Marvina.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.32F0A042-3A6C-4DF8-B56C-A9B4FA1B9DFE" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Info.plist">
+    <Files>
+      <File FileName="iOS/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/muriloerhardt/Projects/Marvina/iOS/InterfaceImplementation/SocialAuthentication.cs" relfile="iOS/InterfaceImplementation/SocialAuthentication.cs" line="23" column="1" />
+      <Breakpoint file="/Users/muriloerhardt/Projects/Marvina/iOS/InterfaceImplementation/SocialAuthentication.cs" relfile="iOS/InterfaceImplementation/SocialAuthentication.cs" line="20" column="1" />
+      <Breakpoint file="/Users/muriloerhardt/Projects/Marvina/iOS/InterfaceImplementation/SocialAuthentication.cs" relfile="iOS/InterfaceImplementation/SocialAuthentication.cs" line="32" column="1" />
+      <Breakpoint file="/Users/muriloerhardt/Projects/Marvina/iOS/InterfaceImplementation/SocialAuthentication.cs" relfile="iOS/InterfaceImplementation/SocialAuthentication.cs" line="30" column="1" />
+      <Breakpoint file="/Users/muriloerhardt/Projects/Marvina/iOS/InterfaceImplementation/SocialAuthentication.cs" relfile="iOS/InterfaceImplementation/SocialAuthentication.cs" line="38" column="1" />
+      <Breakpoint file="/Users/muriloerhardt/Projects/Marvina/Marvina/Services/AzureService.cs" relfile="Marvina/Services/AzureService.cs" line="60" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Marvina.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

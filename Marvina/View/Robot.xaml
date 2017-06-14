@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Marvina.View.Robot" Title="Marvina o marvin feminina" Icon="robot.png">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand" BackgroundColor="#1c1c1c">
+            <StackLayout Padding="20" Spacing="20" x:Name="SuperStack">
+
+                <Image x:Name="mainImg"
+                        Source="marvin.png"
+                        WidthRequest="50"
+                        HorizontalOptions="Center"
+                        Aspect="AspectFit"/>
+
+                <Label x:Name="userName" TextColor="Green" Text="Aguarde"/>
+
+                
+                <StackLayout x:Name="LastActionStack">
+                    <StackLayout x:Name="TitleLastActionStack" BackgroundColor="White" Spacing="5" Padding="5"  Orientation="Horizontal">
+                        <Label x:Name="LocaleTitle" Text="Ultimas escolhas:" HorizontalOptions="Center" TextColor="White"/>
+                    </StackLayout> 
+
+                    <ListView  x:Name="LstAction" HeightRequest = "150" HasUnevenRows="true">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Label Text="{Binding LastActions}" />
+                                 </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>             
+                </StackLayout>
+
+
+                          <!--Stack para o botão de login do facebook-->
+          <StackLayout x:Name="facebookStack" Orientation="Horizontal" HeightRequest="50" HorizontalOptions="FillAndExpand">
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer Tapped="BtnFacebookClicked"/>
+            </StackLayout.GestureRecognizers>
+            <!--Stack utilizada para a image e espaçamentos-->          
+            <StackLayout Orientation="Horizontal" Spacing="20">
+              
+              <Label Text=" "/>
+
+              <Image Source="facebook2.png" 
+                     WidthRequest="40" 
+                     HeightRequest="40" 
+                     HorizontalOptions="Start" />
+
+            </StackLayout>
+
+            <Button x:Name="loginBtn" 
+                    Text="LOGIN COM FACEBOOK" 
+                    HorizontalOptions="CenterAndExpand" 
+                    HeightRequest="50" 
+                    FontSize="15" 
+                    FontAttributes="Bold"
+                    Clicked="BtnFacebookClicked"/>
+                    
+          </StackLayout>
+
+                
+             </StackLayout>   
+        </ScrollView>  
+    </ContentPage.Content>
+    
+</ContentPage>
